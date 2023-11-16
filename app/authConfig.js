@@ -6,11 +6,11 @@
 const msalConfig = {
     auth: {
         // 'Application (client) ID' of app registration in Azure portal - this value is a GUID
-        clientId: "Enter_the_Application_Id_Here",
+        clientId: "a01c9618-4cf1-40c2-abea-9dfd94671d2ae",
         // Full directory URL, in the form of https://login.microsoftonline.com/<tenant-id>
-        authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
+        authority: "ef326395-a4fd-4d97-801f-52dbb04e4366",
         // Full redirect URL, in form of http://localhost:3000
-        redirectUri: "Enter_the_Redirect_Uri_Here",
+        redirectUri: "http://localhost:7001",
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
